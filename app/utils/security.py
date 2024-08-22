@@ -14,7 +14,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30  # Token expiration time in minutes
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")  # Context for hashing passwords
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")  # Security scheme for OAuth2 password bearer tokens
 
-client = MongoClient("mongodb+srv://21it3038:WDHbRTNejWX1uisv@cluster0.b8vudo6.mongodb.net/")  # MongoDB client setup
+client = MongoClient("mongodb+srv://21it3038:TNejWX1uisv@cluster0.b8vudo6.mongodb.net/")  # MongoDB client setup
 db = client["fastapi_db"]  # Select the 'fastapi_db' database
 users_collection = db["users"]  # Select the 'users' collection
 

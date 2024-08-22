@@ -7,7 +7,7 @@ from pymongo import MongoClient
 router = APIRouter()
 
 # Set up the MongoDB client and connect to the database
-client = MongoClient("mongodb+srv://21it3038:WDHbRTNejWX1uisv@cluster0.b8vudo6.mongodb.net/")
+client = MongoClient("mongodb+srv://21it3038:TNejWX1uisv@cluster0.b8vudo6.mongodb.net/")
 db = client["fastapi_db"]  # Select the database
 users_collection = db["users"]  # Select the 'users' collection
 
